@@ -1,0 +1,246 @@
+2020-12-06 16:53:28,393 INFO Starting server Hill
+2020-12-06 16:53:38,135 INFO Can't connect to server Jaquez
+2020-12-06 16:53:38,135 INFO Can't connect to server Smith
+2020-12-06 16:53:38,135 INFO AT Hill +87278483.21551013 kiwi.cs.ucla.edu +34.068930-118.445127 1520023934.918963997
+2020-12-06 16:53:46,730 INFO Successfully retrieved info from API
+2020-12-06 16:53:46,730 INFO AT Hill +87278483.21551013 kiwi.cs.ucla.edu +34.068930-118.445127 1520023934.918963997
+{
+    "html_attributions": [],
+    "next_page_token": "ATtYBwLAsMuzVKzdsI0N8OSc_7x8_xeSFbPunCxmsQW7XH6QEpEJmw3Evg2G7XAawF62upAQD-BqBb4btEZct-izSXBnvfgr_WI26bpbZeM8RmNFdvRPJZ8L334KNipZX-KltzMfb8D5E_qAuU8vy9hjGAkAb2Bt7azR5aZ3oqzzlpniF5KtlL7Cy8XdmBhYp84MtA0nCmhzEfXp4Tke1yhmuE59C4RcUyDl6lDQAl30z3rzNZZoKXg9FGeK66dMIu9C1vzFX7Mj_BBwlkXjiHFjGNgjPsIT4df33vv-82WvA_BU7P5AKTWifw1rIuHIrHaRnrqrmLLfYDm2iS0FIdv0VL3qyr8Ly_Ne4wwhu9CxJKnasK_p3vA9Naf_9ZX2MAAF5Bn5heVtOrrOHONtGXR3XUHCjpyadEGAw1UrTmX2u1yq",
+    "results": [
+        {
+            "geometry": {
+                "location": {
+                    "lat": 34.0522342,
+                    "lng": -118.2436849
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 34.3373061,
+                        "lng": -118.1552891
+                    },
+                    "southwest": {
+                        "lat": 33.7036519,
+                        "lng": -118.6681759
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/geocode-71.png",
+            "name": "Los Angeles",
+            "photos": [
+                {
+                    "height": 4032,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/110015777359731684351\">Anna T\u00f3th</a>"
+                    ],
+                    "photo_reference": "ATtYBwKq70H9WucHrZDmEd2-CvGWWGpptXF1atC1dZTdOCUeEUK6lI71lQXH5Zn-jI65CqipB8zh6G77t2cP_Em2tdrMjSdoMGeaRJpKIviGT0ZwQ94F7vioB-boR9y2ZG4ymmUAHotTzw3KwFOTiGdjxX8PDcrPQlF3Ak3lKyVbJwLY_Ax0",
+                    "width": 3024
+                }
+            ],
+            "place_id": "ChIJE9on3F3HwoAR9AhGJW_fL-I",
+            "reference": "ChIJE9on3F3HwoAR9AhGJW_fL-I",
+            "scope": "GOOGLE",
+            "types": [
+                "locality",
+                "political"
+            ],
+            "vicinity": "Los Angeles"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 34.06320729999999,
+                    "lng": -118.4416734
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 34.0645093802915,
+                        "lng": -118.4401781197085
+                    },
+                    "southwest": {
+                        "lat": 34.0618114197085,
+                        "lng": -118.4428760802915
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+            "name": "Hilgard House Hotel & Suites",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3024,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/114830933268330273474\">Katsushi Okuyama</a>"
+                    ],
+                    "photo_reference": "ATtYBwI5HsjCpSvHJVkBX8mdqjfVL6Auq12vHhGzGotTEk_EAAxCQC5-Jcpdvgx7ufV8fcDHUH6dFwp299qtDPaBT_MPotn1bXszyY7UXgQ-L4HanUNkRdPBTc2-yzlB-6bMLVTm15gcYHLlJQtrlBOci5o3zyyZIFuvTMIkz_im_GCuoT8w",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJ06ecwoC8woARVyPlQNVzetI",
+            "plus_code": {
+                "compound_code": "3H75+78 Los Angeles, CA, USA",
+                "global_code": "85633H75+78"
+            },
+            "rating": 3.9,
+            "reference": "ChIJ06ecwoC8woARVyPlQNVzetI",
+            "scope": "GOOGLE",
+            "types": [
+                "lodging",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 169,
+            "vicinity": "927 Hilgard Avenue, Los Angeles"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 34.0632746,
+                    "lng": -118.4409504
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 34.0646108802915,
+                        "lng": -118.4398087197085
+                    },
+                    "southwest": {
+                        "lat": 34.0619129197085,
+                        "lng": -118.4425066802915
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+            "name": "W Los Angeles - West Beverly Hills",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 1000,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/112226443518685790919\">W Los Angeles - West Beverly Hills</a>"
+                    ],
+                    "photo_reference": "ATtYBwKDCO5WIVMli8K0fBVGlo8HZWKn5LZh_NFakNi3t6KFAu9JRpCTJr419egRh_m495uiFjEEd_eK-fn6rMhlAFou8GIlyp5_fQGcLVOcm--zW6s8uwsTM9ceOu7m_34W_lS3CQ-a_14JgZC4POjgV1XyIL31LNBG0hqbpkIKcVA71s1O",
+                    "width": 1500
+                }
+            ],
+            "place_id": "ChIJffYelYC8woARkChY4cQOzUM",
+            "plus_code": {
+                "compound_code": "3H75+8J Los Angeles, CA, USA",
+                "global_code": "85633H75+8J"
+            },
+            "rating": 4.2,
+            "reference": "ChIJffYelYC8woARkChY4cQOzUM",
+            "scope": "GOOGLE",
+            "types": [
+                "lodging",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 1060,
+            "vicinity": "930 Hilgard Avenue, Los Angeles"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 34.0606338,
+                    "lng": -118.4429579
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 34.0619099802915,
+                        "lng": -118.4416496697085
+                    },
+                    "southwest": {
+                        "lat": 34.0592120197085,
+                        "lng": -118.4443476302915
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+            "name": "Royal Palace Westwood Hotel",
+            "photos": [
+                {
+                    "height": 3024,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/116737278302879556875\">Merrill Smith</a>"
+                    ],
+                    "photo_reference": "ATtYBwJClWg7MmEWJ-AIMw8vUtsVOH75cyPMqxuba8oSIl6Dx1WRVoeDejXdKMdatf6gyiVfXQbEHGhsLGAkICwLj_FpzUDzuTYagB_bU25qOiQu8hXQBHvamQSO1Z6KxQ9JsZh37hlY-TQiuSn5CNpPTqLgMcIV46FwuZk1amDVdq1dCckj",
+                    "width": 4032
+                }
+            ],
+            "place_id": "ChIJ36i1toG8woARHcjs6P2eCkU",
+            "plus_code": {
+                "compound_code": "3H64+7R Los Angeles, CA, USA",
+                "global_code": "85633H64+7R"
+            },
+            "rating": 4.2,
+            "reference": "ChIJ36i1toG8woARHcjs6P2eCkU",
+            "scope": "GOOGLE",
+            "types": [
+                "lodging",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 210,
+            "vicinity": "1052 Tiverton Avenue, Los Angeles"
+        },
+        {
+            "business_status": "OPERATIONAL",
+            "geometry": {
+                "location": {
+                    "lat": 34.0677194,
+                    "lng": -118.4260111
+                },
+                "viewport": {
+                    "northeast": {
+                        "lat": 34.06895858029149,
+                        "lng": -118.4244877697085
+                    },
+                    "southwest": {
+                        "lat": 34.0662606197085,
+                        "lng": -118.4271857302915
+                    }
+                }
+            },
+            "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
+            "name": "Beverly Hills Plaza Hotel & Spa",
+            "opening_hours": {
+                "open_now": true
+            },
+            "photos": [
+                {
+                    "height": 3456,
+                    "html_attributions": [
+                        "<a href=\"https://maps.google.com/maps/contrib/110208481895485602287\">G Any</a>"
+                    ],
+                    "photo_reference": "ATtYBwK3-YwvbsRt7e5aAP9bpVrFldIgG1Y-NlAG5xkeF8dkbgudihgT8EFqI7CTGR_nkY2OX7Bsd-qqENk8cRqwutzZp7eTotckAk6Mjg_OApwq43arxfNCk-or1t6n87dyTjQXyNLD6yzvqXhCC3udOE3PN91c45j9rZK6e1vDjAlH9Hug",
+                    "width": 4608
+                }
+            ],
+            "place_id": "ChIJ5ZA1I3e8woARBzIurF6K3vU",
+            "plus_code": {
+                "compound_code": "3H9F+3H Los Angeles, CA, USA",
+                "global_code": "85633H9F+3H"
+            },
+            "rating": 4.4,
+            "reference": "ChIJ5ZA1I3e8woARBzIurF6K3vU",
+            "scope": "GOOGLE",
+            "types": [
+                "lodging",
+                "point_of_interest",
+                "establishment"
+            ],
+            "user_ratings_total": 360,
+            "vicinity": "10300 Wilshire Boulevard, Los Angeles"
+        }
+    ],
+    "status": "OK"
+}
+
+2020-12-06 16:53:54,261 INFO Shutting down server Hill

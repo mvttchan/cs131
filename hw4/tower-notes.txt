@@ -1,0 +1,30 @@
+My TA's slides were immensely helpful to me. They provided the main
+algorithm I used for the unordered range requirements of the tower
+game. There was a piazza post describing how to make the logic more
+efficient by only using fd_labeling at the end after placing all
+constraints. I was thankful for that tip as it improved my time
+a drastic amount. In addition, my TA mentioned that a generalized
+transpose function would be essential to the project, and a student
+asked if a solution from stackoverflow would suffice. He said it
+might not be as robust but it should be fine. So I took the hint and
+found a generalized transpose function from there. The logic was
+a bit easier to implement, considering all I have to do in Prolog
+is tell the machine what is true of the specification. All I had to
+do was apply the proper constraints and include a final ordering
+check to make sure the program was in working order.
+
+Plain tower, however, proved to be a quite troublesome function
+to implement. Test cases where C is unknown proved quite fast,
+although initial tests where T was the unknown took over 10 minutes.
+The third case provided in the homework was fast, so it only slows
+during those tests where it solves for T. This was unacceptable,
+so I just used a different algorithm to overcome this.
+
+Speedup ratios were reported to range from .6-.8
+
+Ambiguous reported this possibility N = 4:
+C = counts([4,2,2,1],[1,2,2,4],[4,2,2,1],[1,2,2,4])
+T1 = [[1,2,3,4],[2,1,4,3],[3,4,1,2],[4,3,2,1]]
+T2 = [[1,2,3,4],[2,4,1,3],[3,1,4,2],[4,3,2,1]]
+
+https://stackoverflow.com/questions/4280986/how-to-transpose-a-matrix-in-prolog

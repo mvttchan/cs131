@@ -1,0 +1,59 @@
+*Problem 1*
+         I was torn between using list functions exists and mem. List.exists
+         turned the function into (a' -> bool) list -> a' list -> bool = <fun>
+         while mem function turned into the correct format a' list -> a' list ->
+         bool = <fun>
+
+*Problem 2*
+         Simply put, if the a is a subset of b and b is a subset of a, they are
+         the same set. This statement still holds true in the case of empty sets
+         so the code is simply utilizing the implementation of the first problem
+         I also used the provideed stdlib module specified in the spec to
+         determine that boolean AND for OCaml is simply &&
+
+*Problem 3*
+         The set union had an easy logic to it. If there is an element in the
+         first set not in the second, concatenate it on the second . If present
+         in both then I do not have to do anything extra except call the
+         function recursively
+
+*Problem 4*
+         At first I thought it intersection would hold little difference to the
+         implementation of set union, however it became apparent I would have
+         had to use a third variable to store what is present in both sets.
+         This problem had me looking through the documentation for the list
+         module for a more appropriate function to use. The one I stumbled upon
+         was the filter function. After looking more online to see how it was
+         used, I determined that it was the perfect function to use for this
+         problem as well as the next one.
+         https://caml.inria.fr/pub/docs/manual-ocaml/libref/List.html
+         https://www.ocf.berkeley.edu/~mbh/tutorial/hof.html
+         https://cs.wellesley.edu/~cs251/s12/handouts/holistfuns.pdf
+
+*Problem 5*
+         As mentioned above, I used the linked sources to see how the filter
+         function could be used.
+
+*Problem 6*
+         This problem was easily solvable thanks to my TA's slides on how to
+         do computed fixed point. Discussion 1B. I can't link the slides
+         because they're on CCLE, but the logic is as follows:
+         "Keep calling input function f on the input c until f(c) = c"
+         Since there is no need to terminate the function, it was a simple
+         matter of implementing an infinite loop until a result is found
+
+*Problem 7*
+         As the TA's said, this was the doozy of the assignment. I used the
+         functions computed_fixed_point and equal_sets as the hints suggested.
+         Furthermore, I had to break down several elements into seperate
+         functions to call, to make it more modular and easier to understand.
+         The biggest hurdle for me was understanding how to format the
+         computed fixed point loop. But once I understood how I should frame its
+         use, the rest of the problem became much simpler. The main logic is to
+         use the starting expression as a list and seperate the rules into
+         which elements are present in that list. After parsing the nonterminal
+         symbols, I add it to the list that starting expression was in,
+         expanding the available reachable nodes. Visualizing this problem
+         as a directed graph was immensely helpful in understanding the
+         algorithm to construct the code. Of course, discussion 1B slides
+         were a great boon as well

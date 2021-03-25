@@ -1,0 +1,42 @@
+Figuring out a working implementation for make_matcher took up a good chunk of
+my time, though it proved to be extremely useful later in the project, as I
+would see the same logic again in make_parser. make_matcher had several
+concepts unique to that problem, such as the acceptor changing as the function
+progresses and how that same acceptor can accept a greater variety of
+fragments.
+
+make_parser and make_matcher had similar functionality, though make_parser had
+several things added to it. The core functionality lied in the mutual recursion
+used to determine whether or not a rule matched. There was no acceptor function
+for the top most level of make_parser, so I also had to implement an internal
+acceptor. In addition, though they had a common workload, make_parser and
+make_matcher had two very fundamentally different outputs. make_matcher
+had to return an output that the acceptor allowed while make_parser had to
+keep track of visited nodes and leaves in order to later construct the parse
+tree. This was my reason for not implementing a common function between the
+two. make_parser also had only one kind of acceptor available, which only
+accepted the entire fragment or not at all, there was no in between. It made
+more sense to me, when programming, to keep the two functions seperate because
+of their different goals but to keep in mind the same paradigms when
+constructing make_parser.
+
+Some other things to keep in mind for making make_parser was to reverse
+the list when constructing the parse tree. I saw a question on piazza
+asking about the efficiency of the tests and the answer had several useful
+bits of information relating how to handle the construction of the parse
+tree.
+
+As mentioned in the specifications for the homework, make_parser and
+make_matcher had limitations that were acceptable in our implementations.
+Namely, we were allowed to find any derivation that the acceptor allowed,
+though they may not be the most succinct nor lengthiest set of rules.
+In this, there also lies inefficiency for both functions as they must
+iterate through each rule to find any match, while backtracking if
+the rule did not fit.
+
+Furthermore, this implementation remains stuck in an infinite loop should
+the grammar have a redundant rule, such as Num -> Num. If this was placed
+as the first rule in the set of rules, the function would keep calling
+itself as it sees a nonterminal first. Thankfully, we did not have to worry
+about bad grammar in this assignment, so there were really no edge cases
+to keep in mind during this assignment.
